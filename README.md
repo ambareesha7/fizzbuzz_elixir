@@ -1,6 +1,6 @@
 # fizzbuzz_elixir
 FizzBuzz in Elixir
-
+### there are multiple ways to do fizzbuzz in elixir
 <pre>
 defmodule FizzBuzz do
   def play(min, max), do: Enum.each(min..max, &play/1)
